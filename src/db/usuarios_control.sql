@@ -51,10 +51,10 @@ INSERT INTO rol_permiso (id_rol, permiso_id) VALUES
 
 -- Insertar usuario admin (contraseña: 123456)
 INSERT INTO usuarios (nombre, email, clave, id_rol) VALUES
-('Admin', 'admin@gmail.com', '', 1);
+('Admin', 'admin@gmail.com', '$2b$10$wLyuMd5mP.D5YekcUa2uSOQIRXvXFyKmpz3go/ryHgHU1ihTtioa6', 1);
 -- La contraseña es: 1
 
 -- Insertar usuario empleado (contraseña: 123456)
 INSERT INTO usuarios (nombre, email, clave, id_rol) VALUES
-('Empleado','empleado@gmail.com',2);
+('Empleado','empleado@gmail.com','$2b$10$wLyuMd5mP.D5YekcUa2uSOQIRXvXFyKmpz3go/ryHgHU1ihTtioa6',2);
 -- La contraseña es 1
